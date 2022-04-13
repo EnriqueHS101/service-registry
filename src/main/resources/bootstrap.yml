@@ -6,3 +6,16 @@ spring:
       uri: http://localhost:8081
       username: ehs
       password: ehs123
+
+#server:
+#  port: 8082
+#eureka:
+# instance:
+#   prefer-ip-address: true
+#   instance-id: pruebita
+#   hostname: localhost
+# client:
+#   registerWithEureka:   false
+#   fetchRegistry: false
+#   serviceUrl:
+#     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
